@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en" class="init">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <meta charset="UTF-8">
+  <title>Team</title>
+  <meta name="theme-color" content="#000000">
+  <meta name="viewport"
+    content="width=device-width,user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117122242-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-117122242-1');
+  </script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      '../connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '330289291714085');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1"
+      src="https://www.facebook.com/tr?id=330289291714085&amp;ev=PageView%20%20&amp;noscript=1" />
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+
+
+
+  <!-- Meta Tags -->
+  <meta name="description"
+    content="Techniche was started with a vision to foster the spirit of science and technology amongst the youth of the country and over the years, has successfully served as a platform for promoting young and enthusiastic minds. Techniche is continuously spreading its horizons to become one of the largest techno-management festivals of the nation with an emphasis on fostering innovation and exchange of ideas." />
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Techniche">
+  <meta name="twitter:description"
+    content="Techniche was started with a vision to foster the spirit of science and technology amongst the youth of the country and over the years, has successfully served as a platform for promoting young and enthusiastic minds. Techniche is continuously spreading its horizons to become one of the largest techno-management festivals of the nation with an emphasis on fostering innovation and exchange of ideas.">
+  <meta name="twitter:image:src" content="https://techniche.org/static/images/logo.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Techniche" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://techniche.org" />
+  <meta property="og:image" content="https://techniche.org/static/images/logo.png" />
+  <meta property="og:description"
+    content=" Techniche was started with a vision to foster the spirit of science and technology amongst the youth of the country and over the years, has successfully served as a platform for promoting young and enthusiastic minds. Techniche is continuously spreading its horizons to become one of the largest techno-management festivals of the nation with an emphasis on fostering innovation and exchange of ideas." />
+
+  <script
+    type="application/ld+json">{"@context": "http://schema.org","@type": "Organization","url": "https://techniche.org","name": "Techniche","image": ["https://techniche.org/static/images/logo.png"], "location": {"@type":"Place","name":"Techniche, IIT Guwahati","geo":"26.1908135,91.6950718","address":"Indian Institute of Technology, IIT Guwahati, Guwahati, Assam 781039"},  "sameAs": ["https://www.facebook.com/techniche.iitguwahati","https://instagram.com/techniche_iitguwahati","https://twitter.com/techniche_iitg","https://www.linkedin.com/company/techniche-iitg","https://www.youtube.com/channel/UCwnIPxvkZPx4l1jnLXjAA9A"], "description":"Techniche is the annual Techno-Management festival of the Indian Institute of Technology Guwahati, India."}</script>
+
+  <link rel="apple-touch-icon" href="static/images/ico/Impetus Logo white.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="static/images/ico/Impetus Logo white.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/images/ico/Impetus Logo white.png">
+  <!-- <link rel="icon" type="image/png" sizes="96x96" href="static/images/ico/favicon-96x96.png"> -->
+  <link rel="stylesheet" href="static/css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/css/flexboxgrid.min.css">
+  <link rel="stylesheet" href="static/static_20/css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/static_20/css/flexboxgrid.min.css">
+  <link rel="stylesheet" href="static/static_20/css/base.css">
+  <link rel="stylesheet" href="static/static_20/css/timeline.css">
+  <script src="../cdn.jsdelivr.net/npm/bootstrap%405.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+  <style type="text/css">
+    .trending {
+      position: absolute;
+      z-index: 50;
+      color: #7bbaf9;
+    }
+
+    #BG {
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    @media screen and (max-width: 800px) {
+      .covid {
+        font-size: 1.1rem;
+        margin: 2.5rem;
+      }
+
+    }
+
+    @media screen and (max-width: 576px) {
+      .hidden-desktop {
+        display: none;
+      }
+
+      .covid {
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin: 1.3rem;
+      }
+
+    }
+
+    @media screen and (min-width: 800px) {
+      .hidden-desktop {
+        display: none;
+      }
+
+      .covid {
+        opacity: 0.8;
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
+        font-weight: 400;
+        margin-left: 11rem;
+        margin-top: 2.8rem;
+        transition: opacity 0.5s ease;
+
+      }
+
+      .covid:hover {
+        opacity: 1.0;
+      }
+    }
+
+    .lightbgcolor {
+      background-color: #ffffff;
+    }
+
+    .pr-button {
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      transition: all 0.5s ease;
+    }
+
+    .pr-button:hover {
+      transform: scale(1.1);
+      opacity: 1.0;
+    }
+
+    sup {
+      color: #FA9C29;
+      font-family: SF Pro Display;
+    }
+  </style>
+
+
+  <style type="text/css">
+    @media (min-width: 480) {
+      .container {
+        max-width: 450 px;
+      }
+    }
+
+    @media (min-width:768px) {
+      .container {
+        max-width: 700px;
+      }
+    }
+
+    @media (min-width:1400px) {
+      .container {
+        max-width: 1360px;
+      }
+    }
+
+
+    #fixed-content>* {
+      position: absolute !important;
+    }
+
+    #fixed-content.open>* {
+      position: fixed !important;
+
+    }
+
+    .form-control {
+      background: transparent;
+      outline: none;
+      border: none;
+      color: white;
+      border-bottom: 1px solid white;
+      width: 100%;
+      padding: 10px;
+    }
+
+    .mail {
+      padding-left: 12px;
+    }
+
+    .social-icons {
+      position: relative;
+      text-align: right;
+      right: 0;
+      padding-right: 20px;
+    }
+
+    .contain {
+      position: relative;
+      width: 100%;
+      max-width: 400px;
+      height: 60%;
+    }
+
+    .image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+
+    ul.social-media-list li {
+      display: inline-block;
+      margin: 5px;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 25%;
+      -ms-transform: translate(-30%, -50%);
+      transform: translate(-30%, -50%);
+    }
+
+    .overlay-contact {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .3s ease;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+      text-align: center;
+
+    }
+
+    .head {
+
+      height: 433px;
+    }
+
+    .contain:hover .overlay-contact {
+      opacity: 1;
+    }
+  </style>
+
+
+</head>
+
+<body id="top">
+  <div id="lottie">
+
+    <video autoplay="autoplay" poster="static/static_20/Icons/Overlay.png" playsinline="playsinline" muted="muted"
+      loop="loop"
+      style="width:30%; z-index:-1; position: absolute;left:50%; top:50%; transform: translateX(-50%)translateY(-50%);"
+      id="overlay-logo">
+      <source src="static/static_20/Icons/Overlay.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div id="fixed-content">
+    <a href="index.html"><img class="logo social-ico hidden-xs hidden-sm pi1"
+        src="static/static_20/Icons/dark_mode/Impetus Logo white.png" id="modeapply"></a>
+
+    <div class="nav scrollnav">
+
+
+
+
+      <div class="register-mobile"><a class="be-a-techrep hidden-xs social-ico" href="register/index.html">REGISTER</a>
+      </div>
+
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div id="nav-icon3">
+        <span class="navspan"></span>
+        <span class="navspan"></span>
+        <span class="navspan"></span>
+        <span class="navspan"></span>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+  <div class="dark-light-icons hidden-xs">
+    <img class="social-ico hidden-xs hidden-sm" src="static/static_20/Icons/dark_mode/dark.svg" id="modeapply"
+      style="width: 20px;" onclick="updateURL('dark');">
+    <img class="social-ico hidden-xs hidden-sm" src="static/static_20/Icons/dark_mode/light.svg" id="modeapply"
+      style="width: 20px;" onclick="updateURL('light');">
+  </div>
+  <div class="nav-shift fix" style="min-height: 150px">
+  </div>
+
+  <div class="nav-shift">
+    <div class="heading home-title">
+      TEAM
+    </div>
+    <div style="min-height: 5vh;"></div>
+    <div class="container head-container">
+
+      <div class="head">
+        <div class="contain">
+          <img src="static/static_20/images/contactus/Priyanshu-modified.png" alt="Avatar" class="image">
+          <div class="overlay-contact">
+            <div class="center">
+              <ul class="social-media-list">
+                <li><a href="https://www.facebook.com/profile.php?id=100006754307904" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Facebook.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.instagram.com/____.p.c.____/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Instagram.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.linkedin.com/in/pchoudhary05" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/LinkedIn.svg" style="width: 35px;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="head-name">Priyanshu Choudhary</div>
+        <div class="head-position">CONVENER</div>
+        <div class="head-contact"><a
+            href="cdn-cgi/l/email-protection.html#1f30306f6d76667e716c776a5f6b7a7c7771767c777a31706d78"><span
+              class="__cf_email__"
+              data-cfemail="ccbcbea5b5ada2bfa4b98cb8a9afa4a2a5afa4a9e2a3beab">[email&#160;protected]</span></a></div>
+        <div class="head-contact"><a href="tel://+91 9799054122">+91 9799054122</a></div>
+      </div>
+      <div class="head">
+        <div class="contain">
+          <img src="static/static_20/images/contactus/Shashwat-modified.png" alt="Avatar" class="image">
+          <div class="overlay-contact">
+            <div class="center">
+              <ul class="social-media-list">
+                <li><a href="https://www.facebook.com/shashwat.mishra.35110418/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Facebook.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.instagram.com/tawshashwat/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Instagram.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.linkedin.com/in/shashwat-mishra1625a1a1/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/LinkedIn.svg" style="width: 35px;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="head-name">Shashwat Mishra</div>
+        <div class="head-position"> EVENTS </div>
+        <div class="head-contact"><a
+            href="cdn-cgi/l/email-protection.html#0f20207c676e7c67786e7b4f7b6a6c6761666c676a21607d68"><span
+              class="__cf_email__"
+              data-cfemail="57243f36243f203623172332343f393e343f3279382530">[email&#160;protected]</span></a></div>
+        <div class="head-contact"><a href="tel://+91 9458913826">+91 9458913826</a></div>
+      </div>
+      <div class="head">
+        <div class="contain">
+          <img src="static/static_20/images/contactus/Richa-modified.png" alt="Avatar" class="image">
+          <div class="overlay-contact">
+            <div class="center">
+              <ul class="social-media-list">
+                <li><a href="https://www.facebook.com/richa.simran.9" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Facebook.svg" style="width: 35px;"></a></li>
+                <li><a href="https://instagram.com/richakr16?igshid=YmMyMTA2M2Y=" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Instagram.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.linkedin.com/in/richakr16" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/LinkedIn.svg" style="width: 35px;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="head-name">Richa Kumari</div>
+        <div class="head-position">EVENTS (INTERNATIONAL)</div>
+        <div class="head-contact"><a href="richa%40techniche.html"><span class="__cf_email__"
+              data-cfemail="9ceef5fff4fddce8f9fff4f2f5fff4f9b2f3eefb">[email&#160;protected]</span></a></div>
+        <div class="head-contact"><a href="tel://+91 7485050592">+91 7485050592</a></div>
+      </div>
+      <div class="head">
+        <div class="contain">
+          <img src="static/static_20/images/contactus/Siddharth-modified.png" alt="Avatar" class="image">
+          <div class="overlay-contact">
+            <div class="center">
+              <ul class="social-media-list">
+                <li><a href="https://www.facebook.com/profile.php?id=100007093507092" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Facebook.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.instagram.com/siddharth_2603_/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Instagram.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.linkedin.com/in/siddharthsharma2603/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/LinkedIn.svg" style="width: 35px;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="head-name">Siddharth Sharma</div>
+        <div class="head-position"> MARKETING</div>
+        <div class="head-contact"><a
+            href="cdn-cgi/l/email-protection.html#103f3f63797474787162647850647573787e797378753e7f6277"><span
+              class="__cf_email__"
+              data-cfemail="6c1f050808040d1e18042c18090f0402050f040942031e0b">[email&#160;protected]</span></a></div>
+        <div class="head-contact"><a href="tel://+91 7240278848">+91 7240278848</a></div>
+      </div>
+      <div class="head">
+        <div class="contain">
+          <img src="static/static_20/images/contactus/Himanshu-modified.png" alt="Avatar" class="image">
+          <div class="overlay-contact">
+            <div class="center">
+              <ul class="social-media-list">
+                <li><a href="https://www.facebook.com/himanshu.itoria" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Facebook.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.instagram.com/himanempire/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Instagram.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.linkedin.com/in/himanshu-itoria19/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/LinkedIn.svg" style="width: 35px;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="head-name">Himanshu Itoria </div>
+        <div class="head-position"> MARKETING</div>
+        <div class="head-contact"><a
+            href="cdn-cgi/l/email-protection.html#7a55551213171b1409120f3a0e1f1912141319121f5415081d"><span
+              class="__cf_email__"
+              data-cfemail="d8b0b1b5b9b6abb0ad98acbdbbb0b6b1bbb0bdf6b7aabf">[email&#160;protected]</span></a></div>
+        <div class="head-contact"><a href="tel://+91 9921035696">+91 9921035696</a></div>
+      </div>
+      <div class="head">
+        <div class="contain">
+          <img src="static/static_20/images/contactus/Nikhil-modified.png" alt="Avatar" class="image">
+          <div class="overlay-contact">
+            <div class="center">
+              <ul class="social-media-list">
+                <li><a href="https://www.facebook.com/profile.php?id=100006362147272" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Facebook.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.instagram.com/_nikhil_upadhyay__/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Instagram.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.linkedin.com/in/nupadhyay13/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/LinkedIn.svg" style="width: 35px;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="head-name">Nikhil Upadhyay</div>
+        <div class="head-position"> PR & BRANDING</div>
+        <div class="head-contact"><a
+            href="cdn-cgi/l/email-protection.html#183737767173707174586c7d7b7076717b707d36776a7f"><span
+              class="__cf_email__"
+              data-cfemail="b1dfd8dad9d8ddf1c5d4d2d9dfd8d2d9d49fdec3d6">[email&#160;protected]</span></a></div>
+        <div class="head-contact"><a href="tel://+91 9559377410">+91 9559377410</a></div>
+      </div>
+      <div class="head">
+        <div class="contain">
+          <img src="static/static_20/images/contactus/Anushka-modified.png" alt="Avatar" class="image">
+          <div class="overlay-contact">
+            <div class="center">
+              <ul class="social-media-list">
+                <li><a href="https://www.facebook.com/anushka.srivastava.3762/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Facebook.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.instagram.com/anxshkasrivastava/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Instagram.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.linkedin.com/in/anushkasrivastava01/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/LinkedIn.svg" style="width: 35px;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="head-name">Anushka Srivastava</div>
+        <div class="head-position"> MEDIA</div>
+        <div class="head-contact"><a
+            href="cdn-cgi/l/email-protection.html#f6d9d9979883859e9d97b68293959e989f959e93d8998491"><span
+              class="__cf_email__"
+              data-cfemail="a8c9c6dddbc0c3c9e8dccdcbc0c6c1cbc0cd86c7dacf">[email&#160;protected]</span></a></div>
+        <div class="head-contact"><a href="tel://+91 9899508681">+91 9899508681</a></div>
+      </div>
+      <div class="head">
+        <div class="contain">
+          <img src="static/static_20/images/contactus/Purajit-modified.png" alt="Avatar" class="image">
+          <div class="overlay-contact">
+            <div class="center">
+              <ul class="social-media-list">
+                <li><a href="www.facebook.com/niko.html" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Facebook.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.instagram.com/a.non_y_mou.s/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Instagram.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.linkedin.com/in/purajitsonowal" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/LinkedIn.svg" style="width: 35px;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="head-name">Purajit Sonowal</div>
+        <div class="head-position"> CREATIVES</div>
+        <div class="head-contact"><a
+            href="cdn-cgi/l/email-protection.html#a78888d7d2d5c6cdced3e7d3c2c4cfc9cec4cfc289c8d5c0"><span
+              class="__cf_email__"
+              data-cfemail="abdbded9cac1c2dfebdfcec8c3c5c2c8c3ce85c4d9cc">[email&#160;protected]</span></a></div>
+        <div class="head-contact"><a href="tel://+91 7896582133">+91 7896582133</a></div>
+      </div>
+      <div class="head">
+        <div class="contain">
+          <img src="static/static_20/images/contactus/Mayank-modified.png" alt="Avatar" class="image">
+          <div class="overlay-contact">
+            <div class="center">
+              <ul class="social-media-list">
+                <li><a href="https://www.facebook.com/mayank.nagre.1" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Facebook.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.instagram.com/mayanknagre/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Instagram.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.linkedin.com/in/mayanknagre/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/LinkedIn.svg" style="width: 35px;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="head-name">Mayank Nagre</div>
+        <div class="head-position"> CREATIVES</div>
+        <div class="head-contact"><a
+            href="cdn-cgi/l/email-protection.html#98b7b7f5f9e1f9f6f3d8ecfdfbf0f6f1fbf0fdb6f7eaff"><span
+              class="__cf_email__"
+              data-cfemail="fb969a829a9590bb8f9e9893959298939ed594899c">[email&#160;protected]</span></a></div>
+        <div class="head-contact"><a href="tel://+91 7089059470">+91 7089059470</a></div>
+      </div>
+      <div class="head">
+        <div class="contain">
+          <img src="static/static_20/images/contactus/Meghala-modified.png" alt="Avatar" class="image">
+          <div class="overlay-contact">
+            <div class="center">
+              <ul class="social-media-list">
+                <li><a href="https://www.facebook.com/meghala.pasikanti/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Facebook.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.instagram.com/meghalapasikanti/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Instagram.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.linkedin.com/mwlite/in/meghalap" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/LinkedIn.svg" style="width: 35px;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="head-name">Meghala Pasikanti</div>
+        <div class="head-position"> WEBOPS</div>
+        <div class="head-contact"><a
+            href="cdn-cgi/l/email-protection.html#86a9a9ebe3e1eee7eae7a8f6e7f5efede7e8f2efc6f2e3e5eee8efe5eee3a8e9f4e1"><span
+              class="__cf_email__"
+              data-cfemail="f8959d9f90999499d688998b919399968c91b88c9d9b9096919b909dd6978a9f">[email&#160;protected]</span></a>
+        </div>
+        <div class="head-contact"><a href="tel://+91 6281706603">+91 6281706603</a></div>
+      </div>
+      <div class="head">
+        <div class="contain">
+          <img src="static/static_20/images/contactus/Chelsi-modified.png" alt="Avatar" class="image">
+          <div class="overlay-contact">
+            <div class="center">
+              <ul class="social-media-list">
+                <li><a href="https://www.facebook.com/chelsi.rawat.3" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Facebook.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.instagram.com/bery._cherry/" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Instagram.svg" style="width: 35px;"></a></li>
+                <li><a href="https://in.linkedin.com/in/chelsirawat" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/LinkedIn.svg" style="width: 35px;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="head-name">Chelsi Rawat</div>
+        <div class="head-position"> WEBOPS</div>
+        <div class="head-contact"><a
+            href="cdn-cgi/l/email-protection.html#fdd2d29e9598918e94bd89989e9593949e9598d3928f9a"><span
+              class="__cf_email__"
+              data-cfemail="7a19121f1609133a0e1f1912141319121f5415081d">[email&#160;protected]</span></a></div>
+        <div class="head-contact"><a href="tel://+91 7637829029">+91 7637829029</a></div>
+      </div>
+      <div class="head">
+        <div class="contain">
+          <img src="static/static_20/images/contactus/Priya-modified.png" alt="Avatar" class="image">
+          <div class="overlay-contact">
+            <div class="center">
+              <ul class="social-media-list">
+                <li><a href="https://www.facebook.com/profile.php?id=100039335119490" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Facebook.svg" style="width: 35px;"></a></li>
+                <li><a href="https://www.instagram.com/priyaayaa_whatever/saved/?hl=en" rel="external"><img
+                      src="static/static_20/Icons/dark_mode/Instagram.svg" style="width: 35px;"></a></li>
+                <li><a
+                    href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Bwt04AeXMQCKD4iCpJzNRFQ%3D%3D"
+                    rel="external"><img src="static/static_20/Icons/dark_mode/LinkedIn.svg"
+                      style="width: 35px;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="head-name">Priya Chaturvedi</div>
+        <div class="head-position"> FINANCE</div>
+        <div class="head-contact"><a
+            href="cdn-cgi/l/email-protection.html#f2dddd82809b8b93b28697919a9c9b919a97dc9d8095"><span
+              class="__cf_email__"
+              data-cfemail="0676746f7f67467263656e686f656e6328697461">[email&#160;protected]</span></a></div>
+        <div class="head-contact"><a href="tel://+91 7424961621">+91 7424961621</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-9 mail fcu" style="position: relative;">
+        <div class="mail text-xs-center" style="width:100%;">
+          Write to us at <a href="cdn-cgi/l/email-protection.html#f5dada9c9b939ab58190969d9b9c969d90db9a8792"><span
+              class="__cf_email__"
+              data-cfemail="c0a9aea6af80b4a5a3a8aea9a3a8a5eeafb2a7">[email&#160;protected]</span></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 fcu">
+        <div class="social-icons">
+
+          <a href="https://www.facebook.com/techniche.iitguwahati/" target="_blank">
+            <img src="static/static_20/Icons/dark_mode/Facebook.svg" class="social-ico" id="modeapply"
+              style="width:30px; margin:0px 10px;">
+          </a>
+          <a href="https://www.instagram.com/techniche_iitguwahati/?hl=en" target="_blank">
+            <img src="static/static_20/Icons/dark_mode/Instagram.svg" class="social-ico" id="modeapply"
+              style="width:30px; margin:0px 10px;">
+          </a>
+          <a href="https://www.linkedin.com/company/techniche-iitg/" target="_blank">
+            <img src="static/static_20/Icons/dark_mode/LinkedIn.svg" class="social-ico" id="modeapply"
+              style="width:30px; margin:0px 10px;">
+          </a>
+          <a href="https://www.youtube.com/channel/UCwnIPxvkZPx4l1jnLXjAA9A" target="_blank">
+            <img src="static/static_20/Icons/dark_mode/Youtube.svg" class="social-ico" id="modeapply"
+              style="width:30px; margin:0px 10px;">
+          </a>
+          <a href="https://twitter.com/Techniche_IITG" target="_blank">
+            <img src="static/static_20/Icons/dark_mode/Twitter.svg" class="social-ico" id="modeapply"
+              style="width:30px; margin-left:10px; ">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="svg-background" style="display:unset;">
+<object id="svg0" type="image/svg+xml" style="transform: unset;" data="/static/images/svgs/teknis.svg"></object>
+</div> -->
+
+
+
+  <div id="BG" class="overlay overlay-contentpush">
+    <nav>
+      <ul class="main-nav">
+        <br>
+        <li><a id="home" href="index.html">Home</a></li>
+        <li><a id="home" href="#">About</a></li>
+        <li><a id="events" href="events.html">Events</a></li>
+        <li><a id="workshops" href="workshops.html">Workshops</a></li>
+        <li><a id="sponsors" href="sponsors.html">Sponsors</a></li>
+        <li><a id="contact" href="contactus.html">Contact</a></li>
+        <br>
+      </ul>
+    </nav>
+    <!-- <div id="trending1" class="trending">TRENDING</div> -->
+    <!-- <div id="trending2" class="trending">TRENDING</div> -->
+  </div>
+
+  <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+</body>
+
+
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/base.min.js"></script>
+<script src="static/static_20/js/darklight.js"></script>
+
+<script src="static/js/vivus.js"></script>
+
+<script>
+  var curr_index;
+  function rplay() {
+    if (svgs[0].isReady) {
+      svgs[0].play(1);
+    }
+    else {
+      setTimeout(rplay, 500);
+    }
+  }
+  var svgs = [
+    new Vivus('svg0', { duration: 170, type: 'oneByOne', start: 'manual' }, function () { }),
+  ]
+  rplay();
+  $("#submit").on('click', function (e) {
+    console.log("ajax");
+    e.preventDefault();
+    $.ajax({
+      type: "POST",
+      data: { 'csrfmiddlewaretoken': 'C52istH6u0h27i9DRCcKKeA5hE0KJTzWvzuSyKnqcpKPjDe5T54naCerCK778F16', 'name': $('#name').val(), 'phone': $('#phone').val(), 'email': $('#email').val(), 'textarea': $('#textarea').val() },
+      success: function (result) {
+        $("#query_text").css({ "min-height": ($("#query_text").height() + 40).toString() + "px" });
+        $('#query_text').animate({ 'opacity': 0 }, 0, function () {
+          $("#query_text").html("<br><br><br><i class='fa fa-check fa-4x' style='color:white;'></i><br><p style='color:rgba(255,255,255,0.8);'>Our team will reach to you in a day.</p><br><br><br>").animate({ 'opacity': 1 }, 400);
+        });
+
+      }
+    });
+    console.log("ajax");
+  });
+
+</script>
+
+
+
+<script type="text/javascript">
+  if (screen.width < 600) {
+    $("#overlay-logo").css("width", "100%");
+  }
+  modeUpdater();
+  sidenavBg();
+  function sidenavBg() {
+    var step1 = (window.location.href).split("#");
+    var type = (step1[0]).split("mode=");
+    var folder = "dark_mode";
+    console.log(type[1]);
+    if (type.length > 1) {
+      if (type[1] == "light") {
+        folder = "light_mode";
+        var colorArray = ["#FFFFFF", "#57B8FF", "#CA8CFF", "#FFFFFF", "#57B8FF", "#CA8CFF", "#FFFFFF"];
+      }
+      else {
+        var colorArray = ["#151515", "#0B054A", "#561C9F", "#151515", "#0B054A", "#561C9F", "#151515"];
+      }
+    }
+    if (screen.width > 1000) {
+      document.getElementById('events').onmouseover = function () {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Events.svg')"
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[0];
+
+      };
+      document.getElementById('events').onmouseout = function () {
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+      document.getElementById('podcast').onmouseover = function () {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Events.svg')"
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[0];
+
+      };
+      document.getElementById('podcast').onmouseout = function () {
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+      document.getElementById('competitions').onmouseover = function () {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Competitions.svg')"
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[1];
+
+      };
+      document.getElementById('competitions').onmouseout = function () {
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+      document.getElementById('workshops').onmouseover = function () {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Workshops.svg')"
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[2];
+
+      };
+      document.getElementById('workshops').onmouseout = function () {
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+
+      document.getElementById('ghm').onmouseover = function () {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/GHM.svg')"
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[3];
+
+      };
+      document.getElementById('ghm').onmouseout = function () {
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+      document.getElementById('initiatives').onmouseover = function () {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Initiatives.svg')"
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[4];
+
+      };
+      document.getElementById('initiatives').onmouseout = function () {
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+
+      document.getElementById('sponsors').onmouseover = function () {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Sponsors.svg')"
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[5];
+
+      };
+      document.getElementById('sponsors').onmouseout = function () {
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+
+      document.getElementById('schedule').onmouseover = function () {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Schedule.svg')"
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[6];
+
+      };
+      document.getElementById('schedule').onmouseout = function () {
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+    }
+  }
+
+  if (screen.width > 1000) {
+    $(".pi1").addClass("scrollnav");
+  } else {
+    $(".pi2").addClass("scrollnav");
+  }
+
+  //   document.getElementById("home").addEventListener("onmouseover", function() {
+  //   document.getElementById("BG").style.backgroundImage = url('https://www.gravatar.com/avatar/9385da4a3618cdc385bd49fe3d951b78?s=32&d=identicon&r=PG');
+  // }, false);
+  // $('#trending1').css({"top":$("#tre_events").offset().top,"left":$("#tre_events").offset().left-$(window).width()+$("#tre_events").width(),"font-size":parseFloat($("#tre_events").css("font-size"))/2.5});
+  // $('#trending2').css({"top":$("#tre_compi").offset().top,"left":$("#tre_compi").offset().left-$(window).width()+$("#tre_compi").width(),"font-size":parseFloat($("#tre_compi").css("font-size"))/2.5});
+</script>
+
+<!-- Mirrored from techniche.org/contactus by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Jan 2023 20:33:27 GMT -->
+
+</html>

@@ -1,0 +1,718 @@
+
+<!DOCTYPE html>
+<html lang="en" class="init">
+
+
+
+<!-- Mirrored from techniche.org/robotics by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Jan 2023 20:34:51 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <title>Robotics</title>
+  <meta name="theme-color" content="#000000">
+  <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+   <!-- Removed Analytics of PniWorkshops page -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117122242-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-117122242-1');
+  </script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    '../connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '330289291714085'); 
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" 
+  src="https://www.facebook.com/tr?id=330289291714085&amp;ev=PageView%20%20&amp;noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+  
+
+  
+<!-- Meta Tags -->
+<meta name="description"
+  content="A high octane platform to test the mettle in your metal, be it robot wars or maze races, the robotics module has always brought a challenging testing ground for the mechanical creations of our participants. In this virtual edition of Techniche, we’ve brought new challenges." />
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Robotics">
+<meta name="twitter:description"
+  content="A high octane platform to test the mettle in your metal, be it robot wars or maze races, the robotics module has always brought a challenging testing ground for the mechanical creations of our participants. In this virtual edition of Techniche, we’ve brought new challenges.">
+<meta name="twitter:image:src" content="https://techniche.org/static/images/pngs/robotics.png">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="Robotics" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://techniche.org/robotics" />
+<meta property="og:image" content="https://techniche.org/static/images/pngs/robotics.png" />
+<meta property="og:description"
+  content="A high octane platform to test the mettle in your metal, be it robot wars or maze races, the robotics module has always brought a challenging testing ground for the mechanical creations of our participants. In this virtual edition of Techniche, we’ve brought new challenges." />
+
+
+  <link rel="apple-touch-icon" href="static/images/ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="static/images/ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/images/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="static/images/ico/favicon-96x96.png">
+  <link rel="stylesheet" href="static/css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/css/flexboxgrid.min.css">
+  <link rel="stylesheet" href="static/static_20/css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/static_20/css/flexboxgrid.min.css">
+  <link rel="stylesheet" href="static/static_20/css/base.css">
+  <link rel="stylesheet" href="static/static_20/css/timeline.css">
+  <script src="../cdn.jsdelivr.net/npm/bootstrap%405.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <style type="text/css">
+    .trending{
+      position: absolute;
+      z-index: 50;
+      color:#7bbaf9;
+    }
+    #BG {
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    @media screen and (max-width: 800px){
+      .covid {
+        font-size: 1.1rem;
+        margin: 2.5rem;
+      }
+
+    }
+    @media screen and (max-width: 576px){
+      .hidden-desktop{
+        display: none;
+      }
+      .covid {
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin: 1.3rem;
+      }
+
+    }
+    
+    @media screen and (min-width: 800px) {
+      .hidden-desktop{
+        display: none;
+      }
+      .covid {
+        opacity: 0.8;
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
+        font-weight: 400;
+        margin-left: 11rem;
+        margin-top: 2.8rem;
+        transition: opacity 0.5s ease; 
+
+      }
+      .covid:hover {
+        opacity: 1.0;
+      }
+    }
+
+    .lightbgcolor{
+      background-color: #ffffff;
+    }
+    .pr-button {
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      transition:  all 0.5s ease;
+    }
+    .pr-button:hover {
+      transform: scale(1.1);
+      opacity: 1.0;
+    }
+    sup {
+      color: #FA9C29;
+    font-family: SF Pro Display;
+    }
+  </style>
+  
+<link rel="stylesheet" href="static/slick/slick.css">
+<link rel="stylesheet" href="static/slick/slick-theme.css">
+<link rel="stylesheet" href="static/static_20/css/timeline.css">
+<!-- <link rel="stylesheet" href="/static/css/style.css"> -->
+<style type="text/css">
+  .sidenav {
+    position: absolute !important;
+    z-index: 1;
+  }
+
+  .page-content {
+    position: relative;
+  }
+
+  .pt-events {
+    color: white;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    align-items: center;
+    text-align: justify;
+    transform: translateY(-50%);
+  }
+
+  #fixed-content>* {
+    position: absolute !important;
+  }
+
+   #fixed-content.open>* {
+    position: fixed !important;
+
+  }
+
+  .social-icons {
+    text-align: right;
+    right: 0;
+    padding-right: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+
+  .page-content.open {
+    transform: translate(-120%, 0%);
+    opacity: 0.85;
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.25s;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  @media (min-width:601px) and (max-width: 12000px) {
+    .container {
+     width: 855px;
+    }
+    #img-container {
+    width: 600px;
+    height: 500px;
+    }
+  }
+  @media (min-width:601px) and (max-width: 900px) {
+    .container {
+     width: 600px;
+    }
+  }
+  @media (min-width:0px) and (max-width: 600px) {
+
+    .container {
+     width: 350px;
+    }
+  }
+  #btn{
+  background: #3464DD;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 769px){
+    .svg-background > object {
+      width: 100%;
+      transform: scale(1.2,1.2)translateY(-50%);
+    }
+    
+  }
+
+  @media screen and (max-width: 576px){
+    .svg-background > object {
+      top: 30vh;
+      transform: scale(2,2);
+    }
+    
+  } 
+
+  @media screen and (max-width: 1000px) and (min-width: 600px){
+    .svg-background > object {
+      top: 40vh;
+    }
+    
+  }
+  #Rsoon{
+  font-family: SF Pro Display; 
+  font-style: italic; 
+  color:lightsalmon;
+  font-size: 15px;
+  }
+  #Rclosed{
+  color: #EB5757;
+  font-family: SFpro;
+  font-style: italic; 
+  font-size: 15px;
+}
+.winners-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.winner-image{
+  aspect-ratio: 1;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.position{
+  font-family: SF Pro Display; 
+  font-style: italic; 
+  color:lightsalmon;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 90%;
+  padding: 5px;
+}
+.team-name{
+  font-family: SF Pro Display; 
+  font-style: italic; 
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+.divider{
+  border-bottom: 1px solid whitesmoke;
+  width: 80%;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+}
+</style>
+
+  
+</head>
+
+<body id="top">
+  <div id="lottie">
+    <!-- <img src="/static/loader20.png"
+    style="position:absolute; top:29%;left:50%;transform: translateX(-50%); height:14.33%; z-index:1;"> -->
+    <video autoplay="autoplay" poster="static/static_20/Icons/Overlay.png" playsinline="playsinline" muted="muted" loop="loop"
+    style="width:30%; z-index:-1; position: absolute;left:50%; top:50%; transform: translateX(-50%)translateY(-50%);" id="overlay-logo">
+    <source src="static/static_20/Icons/Overlay.mp4" type="video/mp4">
+    </video>
+  </div>
+
+<div id="fixed-content">
+  <a href="index.html"><img class="logo social-ico hidden-xs hidden-sm pi1" src="static/static_20/Icons/dark_mode/logo_desktop.svg" id="modeapply"></a>
+  <!-- <div class=" hidden-xs hidden-sm covid scrollnav"><a href="/covid/resources">COVID-19 RESOURCES</a></div> -->
+  <!-- <a href="/"><img class="logo social-ico hidden-desktop pi2" src="/static/static_20/Icons/dark_mode/logo_phone.svg" id="modeapply" style="width: 200px; top: 20px;"></a> -->
+  <!-- <div class="covid hidden-desktop pi2"><a href="/covid/resources" style="text-decoration:none">COVID-19 RESOURCES</a></div> -->
+  <div class="nav scrollnav">
+      
+      <div class="register-mobile"><a class="pr-button" href="printern.html">PR INTERN</a> </div>
+      
+      
+      <div class="register-mobile"><a class="be-a-techrep hidden-xs social-ico" href="register/index.html">REGISTER</a> </div>
+      
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div id="nav-icon3">
+        <span class="navspan"></span>
+        <span class="navspan"></span>
+        <span class="navspan"></span>
+        <span class="navspan"></span>
+      </div>
+    </div>
+    
+    
+  </div>
+
+  
+<div class="dark-light-icons hidden-xs">
+  <img class="social-ico hidden-xs hidden-sm" src="static/static_20/Icons/dark_mode/dark.svg" id="modeapply" style="width: 20px;" onclick="updateURL('dark');">
+<img class="social-ico hidden-xs hidden-sm" src="static/static_20/Icons/dark_mode/light.svg" id="modeapply" style="width: 20px;" onclick="updateURL('light');">
+</div>
+
+<section class="page-content">
+  <div class="event-main">
+    <div class="event-main-leftbtn hidden-xs social-ico">
+      <a href="corporate.html"><span><img src="static/static_20/Icons/dark_mode/NextEvent_Left.svg" id="modeapply"> &nbsp;&nbsp; Corporate</span></a>
+    </div>
+    <div class="event-main-rightbtn hidden-xs social-ico hidden-xs">
+      <a href="techexpo.html"><span>Techexpo &nbsp;&nbsp; <img src="static/static_20/Icons/dark_mode/NextEvent_Right.svg" id="modeapply"></span></a> 
+    </div>
+    <div class="event-main-content">
+        "For all our robotics fans out there! Techniche, Indian Institute of Technology (IIT) Guwahati is back with its 11th edition of Escalade which is biggest and the splashiest robotics competition in North-Eastern India So put your heads together in these gripping challenges and emerge as the one true champion!"
+    </div>
+  </div> 
+  <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-xm-12 col-sm-12 col-md-12 ">
+          <div class="text-center">
+            <h2 style="font-weight:bolder; font-size :40px; margin-bottom: 0px;">ESCALADE</h2>
+            <p style="margin:0px; letter-spacing: 2px;">ASCENT OF GLORY</p>
+          </div>
+          <div class="text-center">
+            <p>Escalade is the flagship robotics competition, presented by the robotics module of techniche, is the largest and fastest growing robotics event in the northeast with more than 400 participants and more than 100 teams participating previous year. <br><br> 
+            </p>
+            <!-- <p>These are the teams that have truly ESCALATED the the niche for Robots among all.</p> -->
+          </div>
+          <!-- <div class="row winners-wrapper">
+            <div class="col col-xs-12 col-sm-6 col-md-6 col-lg-4 text-center">
+              <div class="card ">
+                <img src="/static/static_20/images/gallery/Robotics/eastern_bots.jpeg" width="80%" height="auto" class="winner-image">
+                <div class="position">1st position</div>
+                <div class="divider"></div>
+                <div class="team-name">Team Eastern Bots</div>
+              </div>
+            </div>
+            <div class="col col-xs-12 col-sm-6 col-md-6 col-lg-4 text-center">
+              <div class="card">
+                <img src="/static/static_20/images/gallery/Robotics/parmanu.jpeg" width="80%" height="auto" class="winner-image">
+                <div class="position">2nd position</div>
+                <div class="divider"></div>
+                <div class="team-name">Team Parmanu </div>
+              </div>
+            </div>
+            <div class="col col-xs-12 col-sm-6 col-md-6 col-lg-4 text-center ">
+              <div class="card">
+                <img src="/static/static_20/images/gallery/Robotics/predators.jpeg" width="80%" height="auto" class="winner-image">
+                <div class="position">3rd position</div>
+                <div class="divider"></div>
+                <div class="team-name">Team Predetors</div>
+              </div>
+            </div>
+
+          </div> -->
+          <div style="display: flex; gap: 50%;">
+            <h4>Prizes Worth &#8377; 1.2 Lakhs  </h4>
+            <!-- <div style="display: flex;flex:100%; flex-direction:row; justify-content:space-evenly; align-items:center; " class="ps-button"> -->
+              <!-- <a href="/static/escalade/Escalade_Mains_Problem_Statement.pdf" download><div class="general-button" style="text-align: center;">  Mains  </div></a> -->
+              <!-- <a href="http://localhost:8000/escalade/form"><div class="general-button" style="text-align: center; margin-top: 5%; " >  Register Now!  </div></a> -->
+              <a href="login/index8577.html"><div class="general-button" style="text-align: center; margin-top: 5%; " >  Register Now!  </div></a>
+            <!-- </div> -->
+          </div>
+          <!-- <a href="/escalade/instruction"><div class="general-button" style="width: 60px;">Register</div></a><br> -->
+          <!-- <p id="Rsoon">Registrations are closed</p> --> 
+          <h4>Objective</h4>
+          <p style="margin-left: 20px; margin-bottom: 0;">The aim of the competition is to test the participants skills to make and control robots and to test the robots in specified tasks which mainly focuses on the ability of the robot to climb. It is a team event. 
+
+          </p>
+
+          <p style="margin-left: 20px; margin-bottom: 0;">Escalade has successfully completed 10 years with flying colors,which is a testament to its enormous national success.Participants from all over the country compete for the top prize.  
+          </p>
+          
+          <p style="margin-left: 20px; margin-bottom: 0;">
+            <iframe src="https://www.youtube.com/embed/Fvq_zVyuFbM" frameborder="0" scrolling="no" width="800" height="400"> </iframe>
+          </p>
+
+          <h4>About</h4>
+          
+          <p style="margin-left: 20px; margin-bottom: 0;">It is held in two rounds.
+          </p>
+          <ul>
+            <li>Prelims</li>
+            <li>Mains</li>
+          </ul>
+
+
+          <p style="text-align: center; font-size:20px;" id="Rsoon">Click on the button below to download Prelims Problem Statements</p>
+          <div style="display: flex;flex:100%; flex-direction:row; justify-content:space-evenly; align-items:center; " class="ps-button">
+            <!-- <a href="/static/escalade/Escalade_Mains_Problem_Statement.pdf" download><div class="general-button" style="text-align: center;">  Mains  </div></a> -->
+            <a href="https://drive.google.com/file/d/1hT64FmSR6g9UXT_rB8dgMA69-6qYU3ui/view" download><div class="general-button" style="text-align: center; " >  Prelims  </div></a>
+          </div>
+
+          <p style="margin-left: 20px; margin-bottom: 0; text-align: justify;">This time in the 11th edition of escalade we come up with our first event Prelims with exhilarating task in which you have to make a manually/autonomous controlled robot capable of climbing , throwing and holding.Participants will be selected from their performances in prelims which will be held online and they will be promoted in second round(mains) for which will held in IIT Guwahati during Techniche (technical fest of IIT Guwahati).
+          </p>
+        </div>
+        
+      </div>
+
+      <div class="text-center">
+        <h4 style="margin-bottom: 0px;">Previous Editions</h4>
+        <p style="font-style: normal; font-weight: normal; font-size: 20px;">A glimpse at some of our past events:</p>
+      </div>
+      <div style="display: flex; gap: 20%;">
+        <div>
+          <iframe src="https://www.youtube.com/embed/Fvq_zVyuFbM" frameborder="0" scrolling="no" width="350" height="400"> </iframe>
+        </div>
+        
+        <div>
+          <iframe src="https://www.youtube.com/embed/13fpvRiATmA" frameborder="0" scrolling="no" width="350" height="400"></iframe>
+        </div>
+      </div>
+      
+      <!-- <h4>Steps to Register</h4>
+      <ul>
+        <li>
+          
+        </li>
+        <li>
+          --
+        </li>
+      </ul> -->
+    </div>
+
+      <div class="separator"></div>
+      <div class="container gallery">
+          <img style="border-radius: 5px;" id="img-container" src="static/static_20/images/gallery/Robotics/1.jpg">
+          <img style="border-radius: 5px;" id="img-container" src="static/static_20/images/gallery/Robotics/2.jpg">
+          <img style="border-radius: 5px;" id="img-container" src="static/static_20/images/gallery/Robotics/3.jpg">
+          <img style="border-radius: 5px;" id="img-container" src="static/static_20/images/gallery/Robotics/4.jpg">
+          <img style="border-radius: 5px;" id="img-container" src="static/static_20/images/gallery/Robotics/5.jpg">
+          <img style="border-radius: 5px;" id="img-container" src="static/static_20/images/gallery/Robotics/6.jpg">
+          <img style="border-radius: 5px;" id="img-container" src="static/static_20/images/gallery/Robotics/7.jpg">
+          <img style="border-radius: 5px;" id="img-container" src="static/static_20/images/gallery/Robotics/8.jpg">
+          <img style="border-radius: 5px;" id="img-container" src="static/static_20/images/gallery/Robotics/9.jpg">
+          <img style="border-radius: 5px;" id="img-container" src="static/static_20/images/gallery/Robotics/10.jpg">
+      </div>
+      <div class="separator"></div>
+      <div class="separator"></div>
+  </div>
+  <!-- <div style="min-height:50px; width:100%;"><br></div> -->
+</section>
+
+<div class="svg-background">
+  <object id="svg2" type="image/svg+xml" data="static/static_20/Icons/event_info/Robotics.svg"></object>
+</div>
+
+<div class="footer">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-2 fcu mail text-left" style="position: relative;"></div>
+    <div class="col-xs-12 col-sm-12 col-md-8 fcu mail text-left" style="position: relative;">
+      <div class="row text-center">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <div class="head-name"> Archit Avadhane </div>
+          <div class="head-contact"> +91 70161 31666</div>
+        </div>
+
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <div class="head-name">Puja Singh</div>
+          <div class="head-contact">+91 62072 69796</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-2 fcu mail text-left" style="position: relative;"></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 fcu mail" style="position: relative;">
+      <div class="mail" style="width:100%;">
+        Write to us at <a href="cdn-cgi/l/email-protection.html#a68989cfc8c0c9e6d2c3c5cec8cfc5cec388c9d4c1"><span class="__cf_email__" data-cfemail="9bf2f5fdf4dbeffef8f3f5f2f8f3feb5f4e9fc">[email&#160;protected]</span></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 fcu col-md-6" style="position:relative;">
+      <div class="social-icons">
+        
+<a href="https://www.facebook.com/techniche.iitguwahati/" target="_blank">
+  <img src="static/static_20/Icons/dark_mode/Facebook.svg" class="social-ico" id="modeapply" style="width:30px; margin:0px 10px;">
+</a>
+<a href="https://www.instagram.com/techniche_iitguwahati/?hl=en" target="_blank">
+  <img src="static/static_20/Icons/dark_mode/Instagram.svg" class="social-ico" id="modeapply" style="width:30px; margin:0px 10px;">
+</a>
+<a href="https://www.linkedin.com/company/techniche-iitg/" target="_blank">
+  <img src="static/static_20/Icons/dark_mode/LinkedIn.svg" class="social-ico" id="modeapply" style="width:30px; margin:0px 10px;">
+</a>
+<a href="https://www.youtube.com/channel/UCwnIPxvkZPx4l1jnLXjAA9A" target="_blank">
+  <img src="static/static_20/Icons/dark_mode/Youtube.svg" class="social-ico" id="modeapply" style="width:30px; margin:0px 10px;">
+</a>
+<a href="https://twitter.com/Techniche_IITG" target="_blank">
+  <img src="static/static_20/Icons/dark_mode/Twitter.svg" class="social-ico" id="modeapply" style="width:30px; margin-left:10px; ">
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <div id="BG" class="overlay overlay-contentpush">
+    <nav>
+      <ul class="main-nav">
+        <br>
+        <li ><a id="home"  href="index.html">Home</a></li>
+        <li ><a id="home"  href="#">About</a></li>
+        <li ><a id="events" href="events.html">Events</a></li>
+        <li><a id="workshops" href="workshops.html">Workshops</a></li>
+        <li><a id="sponsors" href="sponsors.html">Sponsors</a></li>
+        <li><a id="contact" href="contactus.html">Contact</a></li>
+        <br>
+      </ul>
+    </nav>
+    <!-- <div id="trending1" class="trending">TRENDING</div> -->
+    <!-- <div id="trending2" class="trending">TRENDING</div> -->
+  </div>
+  
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/base.min.js"></script>
+<script src="static/static_20/js/darklight.js"></script>
+
+<script src="static/slick/slick.js"></script>
+<script type="text/javascript">
+  $('.gallery').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+</script>
+
+
+<script type="text/javascript">
+  if(screen.width < 600){
+    $("#overlay-logo").css("width","100%");
+  }
+  modeUpdater();
+  sidenavBg();
+  function sidenavBg(){
+    var step1 = (window.location.href).split("#");
+    var type = (step1[0]).split("mode=");
+    var folder = "dark_mode";
+    console.log(type[1]);
+    if(type.length > 1){
+      if(type[1] == "light"){
+        folder = "light_mode";
+        var colorArray = ["#FFFFFF", "#57B8FF", "#CA8CFF", "#FFFFFF", "#57B8FF", "#CA8CFF", "#FFFFFF"];
+      }
+      else{
+        var colorArray = ["#151515", "#0B054A", "#561C9F", "#151515", "#0B054A", "#561C9F", "#151515"];
+      }
+    }
+    if(screen.width > 1000){
+      document.getElementById('events').onmouseover = function()        
+      {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Events.svg')"        
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[0];
+
+      };
+      document.getElementById('events').onmouseout = function()        
+      {        
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+      document.getElementById('podcast').onmouseover = function()        
+      {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Events.svg')"        
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[0];
+
+      };
+      document.getElementById('podcast').onmouseout = function()        
+      {        
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+      document.getElementById('competitions').onmouseover = function()        
+      {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Competitions.svg')"        
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[1];
+
+      };
+      document.getElementById('competitions').onmouseout = function()        
+      {        
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+      document.getElementById('workshops').onmouseover = function()        
+      {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Workshops.svg')"        
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[2];
+
+      };
+      document.getElementById('workshops').onmouseout = function()        
+      {        
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+
+      document.getElementById('ghm').onmouseover = function()        
+      {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/GHM.svg')"        
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[3];
+
+      };
+      document.getElementById('ghm').onmouseout = function()        
+      {        
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+      document.getElementById('initiatives').onmouseover = function()        
+      {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Initiatives.svg')"        
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[4];
+
+      };
+      document.getElementById('initiatives').onmouseout = function()        
+      {        
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+
+      document.getElementById('sponsors').onmouseover = function()        
+      {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Sponsors.svg')"        
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[5];
+
+      };
+      document.getElementById('sponsors').onmouseout = function()        
+        {        
+          document.getElementById('BG').style.backgroundImage = "";
+          document.getElementById('BG').style.backgroundColor = "";
+        };
+
+      document.getElementById('schedule').onmouseover = function()        
+      {
+        var imgurl = "url('static/static_20/Icons/" + folder + "/Schedule.svg')"        
+        document.getElementById('BG').style.backgroundImage = imgurl;
+        document.getElementById("BG").style.backgroundSize = "1100px 700px";
+        document.getElementById('BG').style.backgroundColor = colorArray[6];
+
+      };
+      document.getElementById('schedule').onmouseout = function()        
+      {        
+        document.getElementById('BG').style.backgroundImage = "";
+        document.getElementById('BG').style.backgroundColor = "";
+      };
+    }
+  }
+
+  if(screen.width > 1000){
+    $(".pi1").addClass("scrollnav");
+  } else {
+    $(".pi2").addClass("scrollnav");
+  }
+  
+  //   document.getElementById("home").addEventListener("onmouseover", function() {
+  //   document.getElementById("BG").style.backgroundImage = url('https://www.gravatar.com/avatar/9385da4a3618cdc385bd49fe3d951b78?s=32&d=identicon&r=PG');
+  // }, false);
+  // $('#trending1').css({"top":$("#tre_events").offset().top,"left":$("#tre_events").offset().left-$(window).width()+$("#tre_events").width(),"font-size":parseFloat($("#tre_events").css("font-size"))/2.5});
+  // $('#trending2').css({"top":$("#tre_compi").offset().top,"left":$("#tre_compi").offset().left-$(window).width()+$("#tre_compi").width(),"font-size":parseFloat($("#tre_compi").css("font-size"))/2.5});
+</script>
+
+<!-- Mirrored from techniche.org/robotics by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Jan 2023 20:34:51 GMT -->
+</html>
